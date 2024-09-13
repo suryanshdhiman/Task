@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-outfit: Outfit;
+  --font-sen: Sen;
+  --m3-label-large: Roboto;
+  --secondary-text: Inter;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-smi: 13px;
+  --font-size-5xl: 24px;
+  --font-size-5xs-4: 7.4px;
+  --font-size-4xs-5: 8.5px;
+  --font-size-mid: 17px;
+  --font-size-5xs: 8px;
+  --font-size-2xl-3: 21.3px;
+  --font-size-sm-3: 13.3px;
+  --m3-label-large-size: 14px;
+  --m3-body-large-size: 16px;
+  --m3-headline-large-size: 32px;
+  --secondary-text-size: 12px;
+  --primary-text-size: 20px;
+
+  /* Colors */
+  --color-gray-100: #fbfdfc;
+  --color-gray-200: #fbfdfb;
+  --color-gray-300: #2c2c2c;
+  --color-gray-400: #242424;
+  --color-gray-500: #232323;
+  --color-gray-600: #1b281b;
+  --color-gray-700: #1f1f1f;
+  --color-gray-800: #1e1e1e;
+  --schemes-on-surface1: #1d1b20;
+  --schemes-on-surface: #1b1b1b;
+  --color-gray-900: rgba(27, 40, 27, 0.72);
+  --color-gray-1000: rgba(27, 40, 27, 0.59);
+  --color-darkolivegreen-100: rgba(73, 110, 75, 0.2);
+  --color-whitesmoke-100: #f5f5f5;
+  --color-whitesmoke-200: #f0f0f0;
+  --color-whitesmoke-300: #ebebeb;
+  --color-seagreen-100: #3f9143;
+  --color-seagreen-200: #3d8d41;
+  --color-seagreen-300: #357937;
+  --color-seagreen-400: #347136;
+  --color-seagreen-500: rgba(53, 121, 55, 0.16);
+  --color-seagreen-600: rgba(53, 121, 55, 0.6);
+  --color-gainsboro-100: #e6e6e6;
+  --schemes-surface-variant: #e2e2e2;
+  --color-gainsboro-200: #e1e1e1;
+  --color-gainsboro-300: #d8d8d8;
+  --schemes-on-surface-variant1: #49454f;
+  --schemes-on-surface-variant: #474747;
+  --color-darkslategray-100: #2f3630;
+  --color-darkslategray-200: #142e15;
+  --color-darkslategray-300: rgba(20, 46, 21, 0.62);
+  --color-lightgray: #cfcfcf;
+  --m3-white: #fff;
+  --color-darkseagreen: #76b878;
+  --color-mintcream-100: #eef6ef;
+  --schemes-surface-container-high: #ece6f0;
+  --m3-sys-light-secondary-container: #e8def8;
+  --schemes-outline-variant1: #cac4d0;
+  --schemes-outline-variant: #c6c6c6;
+  --color-silver-100: #c0c0c0;
+  --gray-2: #bdbdbd;
+  --color-lightgreen-100: #a0eda3;
+  --color-lightgreen-200: #98e19b;
+  --color-lightgreen-300: rgba(151, 246, 155, 0.71);
+  --gray: #4f4f4f;
+  --black: #000;
+  --schemes-primary: #65558f;
+  --color-2: #f3722c;
+  --color-1: #f94144;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-29xl: 48px;
+  --gap-5xl: 24px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-311xl: 330px;
+  --gap-8xs-2: 4.2px;
+  --gap-7xs-3: 5.3px;
+  --gap-lgi-1: 19.1px;
+  --gap-648xl: 667px;
+  --gap-9xl: 28px;
+  --gap-4xs: 9px;
+  --gap-363xl: 382px;
+  --gap-5xs: 8px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-29xl: 48px;
+  --padding-5xl: 24px;
+  --padding-6xl: 25px;
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+  --padding-9xs: 4px;
+  --padding-2xs: 11px;
+  --padding-23xl: 42px;
+  --padding-xl: 20px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-smi: 13px;
+  --padding-3xs: 10px;
+  --padding-8xs-2: 4.2px;
+  --padding-6xs-4: 6.4px;
+  --padding-7xs-3: 5.3px;
+  --padding-10xs-1: 2.1px;
+  --padding-4xs-5: 8.5px;
+  --padding-smi-7: 12.7px;
+  --padding-6xs: 7px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-11xs: 2px;
+  --br-5xs: 8px;
+  --br-mini-8: 14.8px;
+  --br-34xl: 53px;
+  --br-2928xl-1: 2947.1px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  
+}
+/* TODONavlistLight.module.css */
+/* Add other existing styles here */
+
+/* TODONavlistLight.module.css */
+/* Add other existing styles here */
+

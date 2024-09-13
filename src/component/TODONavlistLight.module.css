@@ -1,0 +1,290 @@
+.logomarkIcon,
+.menuIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logomarkIcon {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.doit {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 100%;
+}
+.container,
+.header,
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo {
+  height: 32px;
+  gap: var(--gap-9xs);
+}
+.container,
+.header {
+  gap: var(--gap-5xl);
+  z-index: 0;
+
+}
+.header {
+  width: 446.3px;
+  justify-content: flex-end;
+  z-index: 1;
+
+}
+.dividerIcon {
+  width: calc(100% + 192px);
+  position: absolute;
+  margin: 0 !important;
+  right: -96px;
+  bottom: 0;
+  left: -96px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  z-index: 2;
+}
+.webAppNavBar {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) 0;
+  position: relative;
+  z-index: 1;
+}
+.label {
+  z-index: 0;
+}
+.label,
+.label1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.menuItem,
+.menuItem1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-base);
+}
+.menuItem1 {
+  background-color: var(--color-seagreen-500);
+  color: var(--color-seagreen-300);
+}
+.sidePanelMenu,
+.sidebar,
+.sidebar1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidePanelMenu {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  padding: var(--padding-5xl) 0;
+  z-index: 0;
+}
+.sidebar,
+.sidebar1 {
+  width: 240px;
+  z-index: 1;
+}
+.sidebar1 {
+  z-index: 2;
+}
+.sidePanelMenu2,
+.sidebar2 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidePanelMenu2 {
+  align-self: stretch;
+  background-color: var(--color-mintcream-100);
+  flex-direction: row;
+  padding: var(--padding-6xs) 0;
+}
+.sidebar2 {
+  width: 261px;
+  flex-direction: column;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.profileIcon {
+  width: 118px;
+  position: absolute;
+  margin: 0 !important;
+  top: -59px;
+  left: 86px;
+  border-radius: 2947.05px;
+  height: 118px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+  z-index: 4;
+}
+.labelParent {
+  width: 280px;
+  background-color: var(--color-mintcream-100);
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-4xs);
+  z-index: 1;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-600);
+  font-family: var(--font-outfit);
+}
+.label8 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.label7,
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title {
+  align-self: stretch;
+  padding: var(--padding-9xs) 0;
+}
+.completed {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 20px;
+  color: var(--color-gray-600);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.column1,
+.mainContent,
+.table {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.column1 {
+  width: 1020px;
+  flex-direction: column;
+}
+.mainContent,
+.table {
+  z-index: 0;
+}
+.table {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-5xl) 0;
+}
+.mainContent {
+  width: 1056px;
+  flex-direction: column;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-300);
+}
+.container1,
+.toDoNavlistLight {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.container1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-29xl);
+  z-index: 0;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-600);
+  font-family: var(--font-outfit);
+}
+.toDoNavlistLight {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-29xl);
+  box-sizing: border-box;
+  min-height: 900px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-seagreen-100);
+  font-family: var(--font-sen);
+}
+/* TODONavlistLight.module.css */
+
+
+/* TODONavlistLight.module.css */
+
+/* Existing styles... */
+
+.deleteButton {
+  background-color:red; /* Background color of the button */
+  color: white; /* Text color of the button */
+  border: none; /* Remove default border */
+  padding: 5px 10px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-left: 10px; /* Space between button and text */
+  border-radius: 4px; /* Rounded corners */
+  font-size: var(--font-size-mini); /* Font size for button text */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.deleteButton:hover {
+  background-color: darkred; /* Darker background color on hover */
+}
+.sidebarTaskOptions {
+  position: fixed;
+  top: 20%;
+  right: 0;
+  width: 250px;
+  height: auto;
+  background-color: white;
+  border-left: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 100;
+}
+
+.optionItem {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.optionItem:hover  {
+  background-color: #e1e1e1;
+}
+
+
